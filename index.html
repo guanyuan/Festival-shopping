@@ -1,1 +1,23 @@
-hello world.
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Festival Shopping</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	  <script src="./bower_components/angular/angular.min.js"></script>
+	  <script src="./bower_components/angular-route/angular-route.min.js"></script>
+	  <script src="./js/index.js"></script>
+</head>
+
+<body >
+    <div class="test">Welcome</div>
+    <div class="content-body" ng-app="FS">
+    	<div ng-include="'./templates/floor1.html'"></div>
+    	<div ng-include="'./templates/floor2.html'"></div>
+    </div>
+</body>
+
+</html>

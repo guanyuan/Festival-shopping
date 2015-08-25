@@ -1,0 +1,11 @@
+{
+  "name": "festival_shopping",
+  "version": "0.0.0",
+  "homepage": "https://github.com/guanyuan/Festival-shopping",
+  "dependencies": {
+    "angular": "~1.4.4",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.4"
+  }
+}
