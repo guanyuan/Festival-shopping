@@ -1,0 +1,74 @@
+.floor1 .item-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0 22%; }
+  .floor1 .item-list .item {
+    background-color: #571821;
+    display: inline-block;
+    width: 26%;
+    padding: 2%;
+    margin: 1%; }
+    .floor1 .item-list .item img {
+      width: 100%; }
+    .floor1 .item-list .item .time-left {
+      background-color: #7f7f7f;
+      text-align: center;
+      color: #fefefe;
+      padding: 3px 0; }
+    .floor1 .item-list .item .description {
+      background-color: #571821;
+      color: #ddd6d6;
+      padding: 5px 0; }
+    .floor1 .item-list .item .price {
+      font-size: 12px;
+      color: #ffd821;
+      font-weight: bold;
+      padding-bottom: 5px; }
+    .floor1 .item-list .item .button {
+      background-color: #ffdd21;
+      color: #571821;
+      font-weight: bolder;
+      font-size: 14px;
+      text-align: center;
+      padding: 8px 0; }
+
+.floor2 .item-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0 22%; }
+  .floor2 .item-list .item {
+    background-color: white;
+    display: inline-block;
+    width: 17.5%;
+    margin: 0.5%;
+    padding-bottom: 5px; }
+    .floor2 .item-list .item img {
+      width: 100%; }
+    .floor2 .item-list .item .description {
+      color: black;
+      padding: 5px 0; }
+    .floor2 .item-list .item .price {
+      font-size: 12px;
+      color: #bd242b;
+      font-weight: bold;
+      padding-bottom: 5px; }
+    .floor2 .item-list .item .button {
+      background-color: #bd242b;
+      color: white;
+      font-weight: bolder;
+      font-size: 14px;
+      text-align: center;
+      padding: 8px 0;
+      margin: 0 10%; }
+
+body {
+  background-color: #801e22;
+  background: url(../images/bg.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 10px; }
+
+.header img {
+  width: 100%; }

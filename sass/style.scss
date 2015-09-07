@@ -1,6 +1,13 @@
-.header img {
-	width: 100%;
-}
 body {
 	background-color: #801e22;
+	background: url(../images/bg.png) no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-size: 10px;
+}
+
+.header img {
+	width: 100%;
 }
