@@ -1,0 +1,42 @@
+.floor1 .item-list {
+    list-style: none;
+    padding: 0px;
+    width: 55%;
+    margin: 0 23.5%;
+    margin-top: 580px;
+    .item {
+	    background-color: #571821;
+	    display: inline-block;
+	    width: 26%;
+	    padding: 2%;
+	    margin: 1%;
+	    img {
+	    	width: 100%;
+	    }
+	    .time-left {
+		    background-color: #7f7f7f;
+		    text-align: center;
+		    color: #fefefe;
+		    padding: 3px 0;
+		}
+		.description {
+		    background-color: #571821;
+		    color: #ddd6d6;
+		    padding: 5px 0;
+		}
+		.price {
+		    font-size: 12px;
+		    color: #ffd821;
+		    font-weight: bold;
+		    padding-bottom: 5px;
+		}
+		.button {
+		    background-color: #ffdd21;
+		    color: #571821;
+		    font-weight: bolder;
+		    font-size: 14px;
+		    text-align: center;
+		    padding: 8px 0;
+		}
+    }
+}
