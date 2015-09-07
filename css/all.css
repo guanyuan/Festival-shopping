@@ -1,7 +1,9 @@
 .floor1 .item-list {
   list-style: none;
   padding: 0px;
-  margin: 0 22%; }
+  width: 55%;
+  margin: 0 23.5%;
+  margin-top: 580px; }
   .floor1 .item-list .item {
     background-color: #571821;
     display: inline-block;
@@ -35,18 +37,18 @@
 .floor2 .item-list {
   list-style: none;
   padding: 0px;
-  margin: 0 22%; }
+  width: 55%;
+  margin: 0px 24%;
+  margin-top: 120px; }
   .floor2 .item-list .item {
     background-color: white;
     display: inline-block;
-    width: 17.5%;
+    width: 16.5%;
     margin: 0.5%;
+    padding: 0 5px;
     padding-bottom: 5px; }
     .floor2 .item-list .item img {
       width: 100%; }
-    .floor2 .item-list .item .description {
-      color: black;
-      padding: 5px 0; }
     .floor2 .item-list .item .price {
       font-size: 12px;
       color: #bd242b;
@@ -58,7 +60,7 @@
       font-weight: bolder;
       font-size: 14px;
       text-align: center;
-      padding: 8px 0;
+      padding: 5px 0;
       margin: 0 10%; }
 
 body {
