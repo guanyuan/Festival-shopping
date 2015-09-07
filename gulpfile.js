@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var concat = require('gulp-concat');
 var cssbeautify = require('gulp-cssbeautify');
 var clean = require('gulp-clean');
 var livereload = require('gulp-livereload');
@@ -21,7 +22,7 @@ gulp.task('clean-css', function() {
 gulp.task('sass', ['clean-css'], function() {
     gulp.src(scssFolder + '/**/*.scss')
         .pipe(sass())
-        .pipe(cssbeautify())
+        .pipe(concat('all.css'))
         .pipe(gulp.dest(cssFolder))
         .pipe(livereload());
 });
